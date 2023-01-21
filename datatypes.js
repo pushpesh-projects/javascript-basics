@@ -40,3 +40,22 @@ console.log(num1 instanceof Number)
 console.log(str1 instanceof String)
 console.log(b1 instanceof Boolean)
 
+// Primitive vs reference type
+let num2 = 10; 
+let num3 = num2; // Here num3 and num2 have different space on memory
+console.log(num2);
+console.log(num3);
+console.log("After increment");
+num2++; // increasing the num2 value will not impact num3
+console.log(num2);
+console.log(num3);
+
+// Array is reference type
+let array1 = [1, 2]
+let array2 = array1; // Here array2 and array1 holds the address of array [1, 2]
+console.log(array1);
+console.log(array2),
+array1.push(3);
+console.log("After pushing element");
+console.log(array1);
+console.log(array2);
