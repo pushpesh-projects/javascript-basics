@@ -1,19 +1,19 @@
-console.log("-------Example 1 ---------")
+console.log("-------Example 1 ---------");
 const demo = () => {
-    console.log("Hello world");
-}
+  console.log("Hello world");
+};
 
 setTimeout(demo, 3000);
 
 // In the above program, the setTimeout() method calls the demo() function after 3000 milliseconds (3 second).
 
-console.log("I will be printed before hello world !")
+console.log("I will be printed before hello world !");
 
-console.log("-------Example 2---------")
+console.log("-------Example 2---------");
 
 const printName = (fname, lname) => {
-    console.log(`Your name is ${fname} ${lname}`)
-}
+  console.log(`Your name is ${fname} ${lname}`);
+};
 
 setTimeout(printName, 3000, "Pushpesh", "Kumar");
 console.log("I print your name");
